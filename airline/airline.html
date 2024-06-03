@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .h5{
+            color:#fff
+        }
+        .h4{
+            color: #fff;
+        }
+       .he{
+            margin: 1px;
+            font-style: oblique;
+            background-color: aquamarine;
+            margin-left: 700px;
+            padding: 5px 5px;
+            border-radius: 10%;
+            border-color: black;
+        }
+        .body{
+            background-color: rgb(150, 69, 45);
+            margin: auto;
+        }
+        .navbar1{
+           border-radius: 10px;
+           margin-inline: 80px;
+           background-image: url(aeroplane\ background.jpg);
+           background-size: 300px ;
+           
+        }
+        .navbar,li{
+            float: left;
+            list-style: none;
+            margin: 13px 20px;   
+        }
+        .navbar,li,a{
+            text-decoration:none;
+            color: white;
+        }
+        h1{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: white;
+        }
+        .input{
+            bottom:0px;
+            margin-left: 100px;
+            justify-content: center;
+        }
+        .class{
+            padding: 60px;
+            size: 70%;
+        }
+        .to{
+            margin-left: 1000px;
+        }
+        .select{
+            size: 500px;
+        }
+        #inline{
+            display:inline-block;
+            margin-right:10px;
+        }
+    </style>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    </head>
+    <body class="body"></body>
+    <nav class="navbar1">
+        
+        <h1 class="he">Welcome to AirOne </h1>
+        <marquee> <h5 class="h5">Book Your Tickets now.</h5></marquee>
+        <marquee direction="right"
+                 behavior="alternate"
+                 style="border:BLACK 2px SOLID">
+         <h4 class="h4"> AirOne</h4> 
+        </marquee>
+        <ul>
+            <li><a href="airline.html"><h1>Home</h1></a></li>
+            <li><a href="#"><h1>Flights</h1></a></li>
+            <li><a href="#"><h1>Hotels</h1></a></li>
+            <li class="li"><a href="login.html"><h1>My Bookings</h1></a></li>
+        </ul>
+    </nav>
+   <form>
+    <div>
+        <label class="to"><i class='bx bxs-plane-take-off'><h1>From</h1></i>
+        <select class="select">
+            <option>From</option>
+            <option>Bengaluru</option>
+            <option>Mysuru</option>
+            <option>Delhi</option>
+            <option>Hydrabad</option>
+            <option>Chennai</option>
+            <option>Mumbai</option>
+            <option>Thiruvananthapuram</option>
+            <option>Kolkata</option>
+            <option>Ahemdabad</option>
+        </select>
+    </label>
+    <label class="to"><i class='bx bxs-plane-land' ><h1>To</h1></i>
+        <select class="select">
+            <option>To</option>
+            <option>Bengaluru</option>
+            <option>Mysuru</option>
+            <option>Delhi</option>
+            <option>Hydarbad</option>
+            <option>Chennai</option>
+            <option>Mumbai</option>
+            <option>Thiruvananthapuram</option>
+            <option>Kolkata</option>
+            <option>Ahemdabad</option>
+        </select>
+    </label>
+    <h1>Departure</h1><input type="datetime-local" width="70%">
+    <h1 id="inline">Return</h1><input type="date">
+        <h1 id="inline">Passangers</h1>
+    <select>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+        <option>6</option>
+        <option>7</option>
+        <option>8</option>
+        <option>9</option>
+        <option>10</option>
+    </select>
+    <h1 id="inline">Class</h1>
+    <select>
+        <option>Economy</option>
+        <option>Premium</option>
+        <option>Business</option>
+        <option>First</option>
+    </select>
+   </form></br>
+   <button>Confirm</button>
+</div>   
+    </body>
+
+</html>
